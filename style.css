@@ -1,0 +1,264 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+}
+
+.container {
+	max-width: 1180px;
+	margin: 0 auto;
+}
+
+.header {
+	background: #445162;
+}
+
+.header-wrap {
+	width: 100%;
+	padding: 50px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-text {
+	color: #fff;
+}
+
+.header-title {
+	font-size: 60px;
+}
+
+.header-list {
+	list-style-type: none;
+	font-size: 20px;
+	line-height: 36px;
+}
+
+.fa-check {
+	margin: 0 10px;
+}
+
+.header-image {
+	height: 220px;
+	width: 475px;
+	background: #fff;
+}
+
+h2 {
+	text-align: center;
+}
+
+.about-wrap {
+	width: 100%;
+	padding: 50px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+}
+
+.about-title {
+	text-align: left;
+	margin: 0 0 20px;
+}
+
+.about-text {
+	color: #445162;
+	max-width: 50%;
+}
+
+.about-image {
+	height: 245px;
+	width: 425px;
+	background: #445162;
+}
+
+.pluses {
+	color: #445162;
+	background-color: #f5f5f5;
+	padding: 30px 0 0;
+}
+
+.pluses-list {
+	margin: 20px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.pluses-list-item {
+	list-style-type: none;
+	margin: 0 0 40px;
+	display: flex;
+	width: 50%;
+}
+
+.fa-plus-square {
+	margin: 0 10px;
+	font-size: 40px;
+}
+
+.scr {
+	color: #445162;
+	padding: 15px;
+}
+
+.scr-list {
+	margin: 20px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.scr-list-item {
+	list-style-type: none;
+	display: flex;
+	width: 50%;
+	margin: 0 0 20px;
+	box-sizing: border-box;
+}	
+
+.scr-image {
+	height: 145px;
+	width: 195px;
+	background: #445162;
+	margin: 0 20px;
+}
+
+.scr-heading-mini {
+	margin: 0 0 15px;
+}
+
+.reviews {
+	background: #f5f5f5;
+	color: #445162;
+	padding: 30px;
+}
+
+.rev-list {
+	margin: 20px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	box-sizing: border-box;
+}
+
+.rev-list-item {
+	list-style-type: none;
+	width: 50%;
+	margin: 0 0 20px;
+	display: flex;
+	box-sizing: border-box;
+	justify-content: space-between;
+}
+
+.rev-image {
+	margin: 0 20px;
+	width: 75px;
+    height: 75px;
+	border-radius: 50%;
+	background: url(http://placehold.it/75x75);
+}
+
+.rev-text {
+	width: 80%;
+    margin: 0;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+	background: #ebebeb;
+	position: relative;
+	line-height: 20px;
+}
+
+.rev-text p {
+	font-style: italic;
+}
+
+.rev-text:before {
+  	content: "";
+  	display: block;
+  	border: 13px solid transparent; 
+  	border-right: 13px solid #ebebeb;
+  	position: absolute;
+  	top: 27px;
+  	left: -26px;
+}
+
+.buy {
+   	color: #445162;
+   	padding: 30px;
+}
+
+.buy-wrap {
+	width: 100%;
+  	padding: 20px;
+  	display: flex;
+  	box-sizing: border-box;
+  	flex-wrap: wrap;
+  	justify-content: space-around;
+  	align-items: flex-end;
+}
+
+.buy-item {
+  	width: 25%;
+  	background: #445162;
+  	border: 2px solid #445162;
+  	border-radius: 10px;
+  	box-sizing: border-box;
+  	padding: 0 0 10px 0;
+}
+
+.buy-item h3 {
+	width: 100%;
+  	text-align: center;
+  	padding: 10px;
+  	color: #fff;
+  	display: block;
+    box-sizing: border-box;
+}
+
+.buy-item span {
+ 	display: block;
+  	width: 100%;
+  	font-size: 30px;
+  	text-align: center;
+  	background: #fff;
+  	padding: 10px;
+  	color: #445162;
+    box-sizing: border-box;
+}
+
+.buy-item ol {
+	margin: 15px 15px 15px 30px;
+	color: #fff;
+	line-height: 25px;
+}
+
+.btn {
+	width: 180px;
+  	padding: 5px 10px;
+    background-color: #fff;
+  	border-radius: 5px;
+  	border: 1px solid transparent;
+  	text-transform: uppercase;
+ 	outline: none;
+  	color: #445162;
+  	display: block;
+  	margin: 0 auto;
+}
+
+
+
+
+.footer {
+	background: #445162;
+}
+.footer-heading {
+	color: #fff
+}
